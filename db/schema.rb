@@ -24,6 +24,9 @@ ActiveRecord::Schema.define(version: 2) do
   end
 
   create_table "users", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "photo"
+    t.string "role", null: false
     t.string "email", null: false
     t.string "token", null: false
     t.string "password_digest", null: false
