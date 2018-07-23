@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ExampleSerializer < ActiveModel::Serializer
-  attributes :id, :text, :editable
+  attributes :id, :text, :user_id, :editable
 
   def editable
     scope == object.user
