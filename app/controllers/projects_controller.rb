@@ -6,11 +6,22 @@ class ProjectsController < ProtectedController
 
     render json: @projects
   end
+  def show
+    @project = current_user.projects.find(params[:id])
+    render json: @project
+  end
   def create
     @project = current_user.projects.build(project_params)
 
     if @project.save
       render json: @project, status: :created
+    else
+      render json: @project.errors, status: :unprocessable_entity
+    end
+  end
+  def update
+    if @project.update(project_params)
+      render json: @project
     else
       render json: @project.errors, status: :unprocessable_entity
     end

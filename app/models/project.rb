@@ -3,4 +3,5 @@
 class Project < ApplicationRecord
   belongs_to :user
   validates :name, :description, :status, :user, presence: true
+  has_many :stories
 end
