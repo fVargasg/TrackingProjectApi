@@ -26,6 +26,11 @@ class ProjectsController < ProtectedController
       render json: @project.errors, status: :unprocessable_entity
     end
   end
+  def destroy
+    current_user.projects.find(params[:id]).destroy
+
+    head :no_content
+  end
   def set_project
     @project = current_user.projects.find(params[:id])
   end

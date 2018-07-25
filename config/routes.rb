@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # RESTful routes
   resources :examples, except: %i[new edit]
   resources :users, only: %i[index show update]
-  resources :projects, only: %i[index show update create]
+  resources :projects, only: %i[index show update create destroy]
   resources :stories, only: %i[index show update create]
   resources :tasks, only: %i[index show update create]
 
