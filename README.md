@@ -2,14 +2,14 @@
 
 # TrackingProjectApi (Rails api)
 
-A Api to manage projects, Stories and tasks.
+Api to manage projects, Stories and tasks.
 
-- `This was part of my second project at General Assembly boot camp and consists of developing  an api develped with Ruby on Rails to manage projects online`
+- `This was part of my second project at General Assembly boot camp and consists of developing an api developed with Ruby on Rails to manage projects online`
 
 ## Links
 
--`Client project : https://fvargasg.github.io/tracking-project-client`
--`Api project : https://secret-meadow-81980.herokuapp.com`
+- `Client project : https://fvargasg.github.io/tracking-project-client`
+- `Api project : https://secret-meadow-81980.herokuapp.com`
 
 ## Development process and problem-solving strategy
 
