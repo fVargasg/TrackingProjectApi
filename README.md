@@ -8,8 +8,8 @@ Api to manage projects, Stories and tasks.
 
 ## Links
 
-- `Client project : https://fvargasg.github.io/tracking-project-client`
-- `Api project : https://secret-meadow-81980.herokuapp.com`
+- `Client project :` https://fvargasg.github.io/tracking-project-client
+- `Api project :` https://secret-meadow-81980.herokuapp.com
 
 ## Development process and problem-solving strategy
 
