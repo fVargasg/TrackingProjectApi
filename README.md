@@ -4,6 +4,26 @@
 
 A Api to manage projects, Stories and tasks.
 
+- `This was part of my second project at General Assembly boot camp and consists of developing  an api develped with Ruby on Rails to manage projects online`
+
+## Links
+
+-`Client project : https://fvargasg.github.io/tracking-project-client`
+-`Api project : https://secret-meadow-81980.herokuapp.com`
+
+## Development process and problem-solving strategy
+
+I create user stories that the project was goint to have.
+I create Entity Relationship Diagram (ERD) thar the project was goind to have.
+I create the neccesary wire frames for the project.
+
+I started the backend api first and then the front end client.
+
+I deployed both projects online.
+
+## List unsolved problems
+
+ There is not more features to implement in the future.
 
 ## User stories
 
